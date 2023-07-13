@@ -1,4 +1,4 @@
-In this project, let's build a **Gallery App** by applying the concepts we have learned till now.
+In this project, I build a **Gallery App**.
 
 ### Refer to the image below:
 
@@ -18,25 +18,16 @@ In this project, let's build a **Gallery App** by applying the concepts we have 
 
 </details>
 
-### Set Up Instructions
+### Complete Instructions
 
 <details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
+<summary>Functionalities added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- Initially, the first image in the list should be displayed
-- When the user clicks on a thumbnail, then the corresponding image should be displayed
+- Initially, the first image in the list is displayed
+- When the user clicks on a thumbnail, then the corresponding image is displayed
 - The `Gallery` component is provided with `imagesList`. It consists of a list of image details objects with the following properties in each object
 
   |       Key        | Data Type |
@@ -61,42 +52,15 @@ The app must have the following functionalities
 </details>
 
 <details>
-<summary>Implementation Files</summary>
+<summary>Implemented Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Used these files to complete the implementation:
 
 - `src/components/Gallery/index.js`
 - `src/components/Gallery/index.css`
 - `src/components/ThumbnailItem/index.js`
 - `src/components/ThumbnailItem/index.css`
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the CSS `opacity` property to set the degree to which content behind an element is hidden. It accepts a value in the range of 0.0 to 1.0 inclusive
-
-  ```
-  opacity: 0.5;
-  ```
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The selected image should have the alt as the value of the key `imageAltText` from each image details object provided
-- The thumbnail images should have the alt as values of the key `thumbnailAltText` from each image details object provided
 </details>
 
 ### Resources
@@ -118,10 +82,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
